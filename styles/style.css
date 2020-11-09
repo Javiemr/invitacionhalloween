@@ -1,0 +1,70 @@
+<style>
+        
+    @font-face {
+        font-family:at;
+        src: url(../tipografias/halloween.ttf);
+    }
+
+    @font-face {
+        font-family: ayuda;
+        src: url(../tipografias/ayuda.ttf);
+    }
+    body {background-color: black;}
+ #calabaza {position: absolute;
+           top: 500px;
+           left: 750px;
+           width: 200px;
+           height: 190px;
+           /*border: 1px solid white;*/
+ }   
+ #container {position: relative;
+            background-image: url('../images/wallpaper.jpg');
+            margin: auto;
+            width: 1280px;
+            height: 800px;
+
+        }
+#titulo {position: absolute;
+        top:-20px;
+        left: 10px;
+        font-family: ayuda;
+        color: orange;
+        font-size: 3em;
+        text-shadow: 2px 2px 2px yellowgreen;}
+#ayuda {position: absolute;
+       bottom: -80px;
+       right: 0px;
+       font-family: ayuda;
+       font-size: 4.9em;
+       text-shadow: 1px 1px 1px midnightblue;  }
+#bats {position: absolute;
+      top: 490px;
+      left: 765px;
+      visibility: hidden;}
+#datos {position: absolute;
+      top: 490px;
+      left: 765px;
+      font-size: 2.3em;
+      font-family: ayuda;
+      visibility: hidden;}
+#mensaje {position: absolute;
+         bottom: 60px;
+        left: 200px;
+        font-family: ayuda;
+        font-size: 3em;
+        visibility: hidden;
+    }
+#fantasma {position: absolute;
+        top: 260px;
+        left: 750px;
+        visibility: hidden;
+        }
+#ventana {position: absolute;
+        top: 250px;
+         left: 770px;
+         width: 50px;
+         height: 50px;
+         /*border: 1px solid white;*/
+        }                             
+
+</style>

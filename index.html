@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a la fiesta</title>
+    <link rel="stylesheet" href="styles/style.css">
+     <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+   
+    <script src="javascript/javascript.js"></script>
+</head>
+<body>
+    <div id="container">
+     <audio src="sonidos/grito.mp3" id="grito"></audio>
+     <audio src="sonidos/Gnome.mp3" id="Gnome"></audio>
+     <p id="titulo">Invitacion a la fiesta de halloween
+     <p id="ayuda">Pregunta a la calabaza para mas informacion</p>
+     <p id="mensaje">Cuidado con las ventanas</p>
+     <div id="calabaza" onclick="mostrar('bats');mostrar('datos');mostrar('fantasma');
+     mostrar('mensaje');sonar('grito')">
+      </div>
+     <img id="bats" src="images/batss.gif" width="200">
+     <img id="fantasma" src="images/scary.png" width="100">
+     <p id="datos">A las 16:00 en <br> C/San Alfonso <br> trae mascarilla</p>
+     <div id="ventana" onclick="mostrar('fantasma');sonar('Gnome')"></div>
+    </div>
+    
+</body>
+</html>
